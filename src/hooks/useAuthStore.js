@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
 import { calendarApi } from "../api/"
-import { getEnvVariables } from "../helpers"
 import { clearErrorMessage, onChecking, onLogin, onLogout } from "../store"
 
 
