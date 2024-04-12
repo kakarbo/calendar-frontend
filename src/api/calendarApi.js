@@ -6,7 +6,7 @@ const { VITE_API_URL } = getEnvVariables
 
 
 const calendarApi = axios.create({
-    baseURL: VITE_API_URL,
+    baseURL: "https://calendar-cacarbonell-ead884ee32b7.herokuapp.com/api",
 })
 
 
